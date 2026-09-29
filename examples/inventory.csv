@@ -1,0 +1,7 @@
+product_id,name,price,quantity
+P001,Notebook,49.50,20
+P002,Pen,10.00,100
+P001,Notebook,49.50,20
+P003,Broken price,-1.00,5
+P004,Missing quantity,25.00,
+P005,Water bottle,199.00,15

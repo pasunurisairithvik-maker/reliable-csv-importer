@@ -1,0 +1,42 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "results": [
+    {
+      "rows": 1000,
+      "runs": [
+        {
+          "fresh_seconds": 0.01,
+          "reupload_seconds": 0.0079
+        },
+        {
+          "fresh_seconds": 0.0051,
+          "reupload_seconds": 0.0078
+        },
+        {
+          "fresh_seconds": 0.0053,
+          "reupload_seconds": 0.0076
+        }
+      ]
+    },
+    {
+      "rows": 10000,
+      "runs": [
+        {
+          "fresh_seconds": 0.0584,
+          "reupload_seconds": 0.0922
+        },
+        {
+          "fresh_seconds": 0.0486,
+          "reupload_seconds": 0.0698
+        },
+        {
+          "fresh_seconds": 0.0505,
+          "reupload_seconds": 0.0973
+        }
+      ]
+    }
+  ],
+  "note": "Local import function timings; excludes HTTP/network overhead. Not production load testing."
+}
