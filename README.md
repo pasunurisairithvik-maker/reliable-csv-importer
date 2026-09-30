@@ -1,4 +1,6 @@
 # Reliable CSV Importer
+
+Release 1.0 within its documented scope. See [release and operating notes](RELEASE.md).
 A small Python application that validates inventory CSV files, inserts valid rows into SQLite, and reports invalid or duplicate records. It includes a browser upload form and an HTTP API.
 
 ## Run (Python 3.11 or newer)
