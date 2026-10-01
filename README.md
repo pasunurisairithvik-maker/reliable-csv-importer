@@ -33,5 +33,5 @@ python benchmark.py
 ## Scope and limits
 Local learning demo, not a public production service. No authentication, robust concurrency policy, streaming processing, audit history, or malware scanning. Simultaneous overlapping imports may fail and require retry. The application-level size check is not a substitute for a reverse-proxy upload limit. There is no AWS integration.
 
-## Student ownership
-Built with AI assistance. Before using this on a resume, run it, read each function, and make an independently understood change. Read STUDENT_GUIDE.md. Do not claim authorship of untouched generated code or production usage.
+## Implementation guide
+See STUDENT_GUIDE.md for validation, transaction handling, tests and extension points.
